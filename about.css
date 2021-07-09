@@ -1,0 +1,65 @@
+body{
+    background-image: url(/images/nature1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: teal;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+
+}
+header img{
+   float: left;
+    width: 74px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+nav{
+    position: sticky;
+}
+nav > ul{
+   display: flex;
+   background-color: slategray;
+   height: 30px;
+
+ 
+   
+}
+nav li{
+   list-style: none;
+   margin-right: 20px;
+   padding: 0px 10px;
+   
+}
+nav li:hover{
+   background-color:rgb(250, 108, 115) ;
+
+}
+nav li a{
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+}
+.dropdown{
+   display: none;
+   position: absolute;
+
+}
+nav > ul > li:hover>ul{
+   display: block;
+   margin-top: 8px;
+   
+   
+}
+.dropdown li{
+   font-size: 20px;
+   padding: 2px;
+   margin: 0;
+   background-color: slategray;
+   border-top: 1px solid white;
+}
+nav > ul > li{
+   border-right: 1px solid white;
+}
